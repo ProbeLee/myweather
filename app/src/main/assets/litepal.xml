@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名称-->
+    <dbname value="cool_weather"></dbname>
+    <!--数据库版本号-->
+    <version value="1"></version>
+    <!--映射模型-->
+    <list>
+        <!--使用mapping进行映射-->
+        <mapping class="com.demo.weather.db.Province"></mapping>
+        <mapping class="com.demo.weather.db.City"></mapping>
+        <mapping class="com.demo.weather.db.County"></mapping>
+    </list>
+</litepal>
