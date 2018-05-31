@@ -168,6 +168,7 @@ public class WeatherActivity extends AppCompatActivity {
                             SharedPreferences.Editor edit = PreferenceManager.getDefaultSharedPreferences(WeatherActivity.this).edit();
                             edit.putString("weather", string);
                             edit.apply();
+                            mWeatherId = bean.getBasic().getId();
                             showWeatherInfo(bean);
 
                         } else {
