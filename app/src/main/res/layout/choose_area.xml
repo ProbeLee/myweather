@@ -20,12 +20,12 @@
 
         <Button
             android:id="@+id/back_button"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="12dp"
+            android:layout_height="17dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@drawable/back_black" />
     </RelativeLayout>
 
     <ListView
